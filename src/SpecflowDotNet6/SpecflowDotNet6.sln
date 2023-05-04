@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowDotNet6", "SpecflowDotNet6\SpecflowDotNet6.csproj", "{EDC25A0B-2729-40F4-ABAB-008751C5BC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowDotNet6", "SpecflowDotNet6\SpecflowDotNet6.csproj", "{EDC25A0B-2729-40F4-ABAB-008751C5BC46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D0F988B0-F49C-4D58-AFD8-465CC57A790D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProjectDotNet6_test", "tests\SpecFlowProjectDotNet6_test\SpecFlowProjectDotNet6_test.csproj", "{2E68D280-51E0-4FCE-89ED-B610E0B8F98E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{EDC25A0B-2729-40F4-ABAB-008751C5BC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC25A0B-2729-40F4-ABAB-008751C5BC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC25A0B-2729-40F4-ABAB-008751C5BC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E68D280-51E0-4FCE-89ED-B610E0B8F98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E68D280-51E0-4FCE-89ED-B610E0B8F98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E68D280-51E0-4FCE-89ED-B610E0B8F98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E68D280-51E0-4FCE-89ED-B610E0B8F98E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E68D280-51E0-4FCE-89ED-B610E0B8F98E} = {D0F988B0-F49C-4D58-AFD8-465CC57A790D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DDCD7C1-83FA-48F2-921E-DC102AE91BA3}

@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\Serilog_DotNet6\\SpecflowDotNet6\\SpecflowDotNet6\\SpecflowDotNet6.csproj",
+      "projectUniqueName": "D:\\github\\Specflow_DotNet6\\src\\SpecflowDotNet6\\SpecflowDotNet6\\SpecflowDotNet6.csproj",
       "projectName": "SpecflowDotNet6",
-      "projectPath": "D:\\github\\Serilog_DotNet6\\SpecflowDotNet6\\SpecflowDotNet6\\SpecflowDotNet6.csproj",
+      "projectPath": "D:\\github\\Specflow_DotNet6\\src\\SpecflowDotNet6\\SpecflowDotNet6\\SpecflowDotNet6.csproj",
       "packagesPath": "C:\\Users\\f_nosrati\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\Serilog_DotNet6\\SpecflowDotNet6\\SpecflowDotNet6\\obj\\",
+      "outputPath": "D:\\github\\Specflow_DotNet6\\src\\SpecflowDotNet6\\SpecflowDotNet6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
